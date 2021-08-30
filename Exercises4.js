@@ -9,9 +9,13 @@ console.log(range([73, 91, 88, 56, 62, 84, 95, 96, 88, 92]))
 
 
 function median(arr1){
-let medi=arr1.sort()
- return medi[5]
-}
+ let medi=arr1.sort()
+  let finaelMedian=medi.length/2
+  let Hazion=medi[finaelMedian]
+  return Hazion
+ 
+  
+ }
 console.log(median([73, 91, 88, 56, 62, 84, 95, 96, 88, 92]))
 
 
