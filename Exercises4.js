@@ -11,9 +11,8 @@ console.log(range([73, 91, 88, 56, 62, 84, 95, 96, 88, 92]))
 function median(arr1){
 let medi=arr1.sort()
  return medi[5]
-
- 
 }
+console.log(median([73, 91, 88, 56, 62, 84, 95, 96, 88, 92]))
 
 
 function halfrange(arr3){
