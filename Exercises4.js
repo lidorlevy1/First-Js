@@ -10,8 +10,7 @@ console.log(range([73, 91, 88, 56, 62, 84, 95, 96, 88, 92]))
 
 function median(arr1){
 let medi=arr1.sort()
- let finaelMedian=medi.length()
- return finaelMedian
+ return medi[5]
 
  
 }
