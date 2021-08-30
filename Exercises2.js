@@ -24,3 +24,4 @@ console.log(solutionB,solutionA);
 }
 
 // function
+
