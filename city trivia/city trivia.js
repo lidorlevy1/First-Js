@@ -10,10 +10,7 @@ if(capital===true && coastal === false && famous === true && ancient=== true){
   return "Zikim"
 }else if(capital===false && coastal === false && famous === false && ancient=== false){
   return "Musmus"
-}else if(capital===false && coastal === false && famous === false && ancient=== true){
-  return "Katzrin "
-}
-else{
+}else{
   return "No other cities are recognized."
 }
 
